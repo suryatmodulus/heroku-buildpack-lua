@@ -12,7 +12,7 @@ Read a tutorial at <http://suryatmodulus.net/posts/lua_on_heroku.html>.
 Create an app with the buildpack:
 
 ```bash
-$ heroku create --buildpack http://github.com/suryatmodulus/heroku-buildpack-lua.git
+$ heroku create --buildpack http://github.com/suryatmodulus/heroku16-buildpack-lua.git
 ```
 
 ### Dependencies
@@ -96,7 +96,7 @@ $ heroku scale web=1
 
  [1]: http://www.lua.org
  [2]: http://luarocks.org/
- [3]: https://github.com/suryatmodulus/heroku-buildpack-lua/blob/master/opt/prepare.moon
+ [3]: https://github.com/suryatmodulus/heroku16-buildpack-lua/blob/master/opt/prepare.moon
  [4]: http://luarocks.org/en/Rockspec_format
  [5]: http://keplerproject.github.com/xavante/
 
