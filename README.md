@@ -5,14 +5,14 @@ for Lua apps.
 
 It comes bundled with [Lua 5.1][1] and [LuaRocks 2.2.0][2].
 
-Read a tutorial at <http://leafo.net/posts/lua_on_heroku.html>.
+Read a tutorial at <http://suryatmodulus.net/posts/lua_on_heroku.html>.
 
 ## Usage
 
 Create an app with the buildpack:
 
 ```bash
-$ heroku create --buildpack http://github.com/leafo/heroku-buildpack-lua.git
+$ heroku create --buildpack http://github.com/suryatmodulus/heroku-buildpack-lua.git
 ```
 
 ### Dependencies
@@ -32,7 +32,7 @@ could look something like this:
 -- my_app.rockspec
 dependencies = {
   "xavante >= 2.2.1",
-  "https://rocks.moonscript.org/manifests/leafo/moonscript-0.2.6-1.src.rock",
+  "https://rocks.moonscript.org/manifests/suryatmodulus/moonscript-0.2.6-1.src.rock",
   "cosmo"
 }
 ```
@@ -96,7 +96,7 @@ $ heroku scale web=1
 
  [1]: http://www.lua.org
  [2]: http://luarocks.org/
- [3]: https://github.com/leafo/heroku-buildpack-lua/blob/master/opt/prepare.moon
+ [3]: https://github.com/suryatmodulus/heroku-buildpack-lua/blob/master/opt/prepare.moon
  [4]: http://luarocks.org/en/Rockspec_format
  [5]: http://keplerproject.github.com/xavante/
 
